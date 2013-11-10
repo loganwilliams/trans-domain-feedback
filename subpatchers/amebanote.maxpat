@@ -36,8 +36,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 205.0, 166.0, 32.5, 20.0 ],
-					"text" : "* 5."
+					"patching_rect" : [ 205.0, 166.0, 35.0, 20.0 ],
+					"text" : "* 7.5"
 				}
 
 			}
@@ -182,7 +182,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 132.0, 66.0, 25.0, 25.0 ]
 				}
 

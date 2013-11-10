@@ -323,7 +323,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -428,7 +427,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 840.0, 490.0, 840.0, 474.0 ],
+						"rect" : [ 580.0, 173.0, 840.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1343,7 +1342,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 8.0, 105.0, 1050.0, 383.0 ],
+						"rect" : [ 317.0, 111.0, 1050.0, 383.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1362,6 +1361,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
