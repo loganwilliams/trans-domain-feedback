@@ -401,7 +401,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 334.5, 331.0, 71.0, 20.0 ],
 									"text" : "amebanote"
 								}
@@ -413,9 +413,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-20",
 									"maxclass" : "newobj",
-									"numinlets" : 4,
+									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 269.5, 331.0, 65.0, 20.0 ],
 									"text" : "dirtysignal"
 								}
@@ -427,9 +427,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-19",
 									"maxclass" : "newobj",
-									"numinlets" : 6,
+									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 178.5, 331.0, 91.0, 20.0 ],
 									"text" : "rotate_on_beat"
 								}
@@ -455,9 +455,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-6",
 									"maxclass" : "newobj",
-									"numinlets" : 4,
+									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 49.5, 331.0, 129.0, 20.0 ],
 									"text" : "sampleandholdonbeat"
 								}
@@ -827,9 +827,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-24",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "" ],
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 513.5, 301.0, 91.0, 20.0 ],
 									"text" : "simple_release"
 								}
@@ -841,9 +841,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-21",
 									"maxclass" : "newobj",
-									"numinlets" : 4,
+									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 416.5, 301.0, 97.0, 20.0 ],
 									"text" : "multi_osc_synth"
 								}
@@ -855,9 +855,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-20",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 243.5, 301.0, 173.0, 20.0 ],
 									"text" : "brightnessenvelopemodulation"
 								}
@@ -869,9 +869,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-19",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 128.5, 301.0, 115.0, 20.0 ],
 									"text" : "spectrum_multiplier"
 								}
@@ -899,7 +899,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.5, 301.0, 109.0, 20.0 ],
 									"text" : "am_motion_detect"
 								}
@@ -3941,7 +3941,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-19::obj-58" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-76::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-8::obj-4::obj-21" : [ "number", "number", 0 ],
 			"obj-76::obj-32" : [ "[8]", "[2]", 0 ],
@@ -3990,111 +3989,6 @@
 				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
 				"patcherrelativepath" : "../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
 				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "am_motion_detect.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spectrum_multiplier.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spectral_multiplier.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "brightnessenvelopemodulation.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multi_osc_synth.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multiosctri.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "simple_release.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sampleandholdonbeat.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sampleandhold.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "beatdetect.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rotate_on_beat.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "matrixrotate.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dirtysignal.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "amebanote.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pitchextraction.maxpat",
-				"bootpath" : "/Users/drews/src/music-hack-day/trans-domain-feedback",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
