@@ -36,8 +36,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 145.0, 37.0, 18.0 ],
-					"text" : "open"
+					"patching_rect" : [ 268.0, 145.0, 39.0, 18.0 ],
+					"text" : "close"
 				}
 
 			}
@@ -119,7 +119,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 617.5, 854.0, 65.0, 20.0 ],
 					"text" : "multiosctri"
 				}
@@ -215,7 +215,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 500.0, 971.0, 48.0, 136.0 ],
+					"patching_rect" : [ 496.5, 971.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -241,7 +241,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 496.5, 854.0, 65.0, 20.0 ],
 					"text" : "multiosctri"
 				}
@@ -1062,28 +1062,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "cv.jit.flow.draw.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cv.jit.cartopol.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cv.jit.changetype.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multiosctri.maxpat",
-				"bootpath" : "/Users/loganw/Documents/MHD",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
