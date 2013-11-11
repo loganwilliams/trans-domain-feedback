@@ -45,7 +45,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 172.0, 17.0, 15.0, 15.0 ]
 				}
 
@@ -57,7 +57,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 52.0, 16.0, 15.0, 15.0 ]
 				}
 
@@ -85,8 +85,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 52.0, 186.0, 215.0, 11.0 ],
-					"text" : "jit.matrix 4 char 320 240 @usesrcdim 1 @adapt 0"
+					"patching_rect" : [ 52.0, 186.0, 98.0, 11.0 ],
+					"text" : "jit.matrix 4 char 640 480 @usesrcdim 1 @adapt 0"
 				}
 
 			}
@@ -141,8 +141,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 52.0, 116.0, 233.0, 11.0 ],
-					"text" : "jit.matrix 4 char 320 240 128 @usedstdim 1 @interp 0"
+					"patching_rect" : [ 52.0, 116.0, 106.0, 11.0 ],
+					"text" : "jit.matrix 4 char 640 480 128 @usedstdim 1 @interp 0"
 				}
 
 			}
@@ -332,8 +332,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }

@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 205.0, 166.0, 35.0, 20.0 ],
-					"text" : "* 7.5"
+					"text" : "* 20."
 				}
 
 			}
